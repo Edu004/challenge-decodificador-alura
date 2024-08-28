@@ -1,0 +1,119 @@
+* {
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+.logo{
+    margin-left: 15px;
+    padding-top: 8px;
+    width: 10%;
+}
+
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    color: #0A3871;
+    margin-top: 30px;
+    width: 1300px;
+    height: 550px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0A3871;}
+.text-area:focus{
+    outline: 0;
+    border: 0 none;
+}
+
+textarea:focus, input:focus {
+    
+    border: 0 none;
+    outline: 0;
+} 
+
+.saida{
+    background: white;
+    background-image: url(./assets/procurando.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 24px;
+    width: 555px;
+    height: 800px;
+    color: #0A3871;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    position: fixed;
+}
+
+.saida:focus{
+    outline: none;
+}
+
+
+.botoes{
+    display: flex;
+    margin-top: 8px;
+}
+
+.btn-descriptografar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptografar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 185px;
+    margin-top: 732px;
+    align-items: center;
+    position: absolute;
+    width: 336px;
+}
+
+
+.aviso{
+    display: block;
+    color: red;
+    height: 70px;
+    width: 600px;
+    font-size: 10px;
+}
+
+
+
+/* .rodape{
+    color: black;
+    background-color: #0A3871;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 40;
+} */
