@@ -35,23 +35,22 @@ main{
 }
 
 textarea:focus, input:focus {
-    
     border: 0 none;
     outline: 0;
 } 
 
 .saida{
     background: white;
-    background-image: url(./assets/procurando.png);
+    background-image: url(./assets/procurando_mensagem.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 24px;
-    width: 555px;
-    height: 800px;
+    width: 575px;
+    height: 790px;
     color: #0A3871;
     margin-left: 50px;
     margin-top: 20px;
-    padding-left: 10px;
+    padding-left: 5px;
     position: fixed;
 }
 
@@ -62,7 +61,7 @@ textarea:focus, input:focus {
 
 .botoes{
     display: flex;
-    margin-top: 8px;
+    margin-top: 6px;
 }
 
 .btn-descriptografar{
@@ -92,7 +91,7 @@ textarea:focus, input:focus {
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 185px;
+    margin-left: 174px;
     margin-top: 732px;
     align-items: center;
     position: absolute;

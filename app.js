@@ -4,7 +4,7 @@ const saida = document.querySelector(".saida");
 let tirarImagem = document.querySelector(".saida");
 
 while(saida.value = ""){
-    tirarImagem.style.backgroundImage = './assets/procurando.png';
+    tirarImagem.style.backgroundImage = './assets/procurando_mensagem.png';
 }
 
 function btnEncriptar(){
